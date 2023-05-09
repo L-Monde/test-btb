@@ -5,6 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: rgb(2, 2, 14);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 2, 14, 1) 0%,
+    rgba(35, 169, 198, 1) 100%
+  );
+
+  color: white;
 }
 
 code {
@@ -31,4 +40,9 @@ code {
 .button {
 }
 .footer {
+}
+@media only screen and (max-width: 1440px) {
+  .main {
+    width: 40%;
+  }
 }
